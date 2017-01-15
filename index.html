@@ -1,1 +1,77 @@
-/media/ivan/8CCCA2D8CCA2BC38/site/untitled3/out/web/index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Промышленность блокадного Ленинград</title>
+
+    <!-- Another way for accessing the necessary font:-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Material fonts -->
+    <link rel="stylesheet" href="packages/mdl/assets/fonts/fonts.min.css">
+
+    <!-- Your brown-orange-theme! -->
+    <link id="theme" rel="stylesheet"
+          href="https://cdn.rawgit.com/MikeMitterer/dart-mdl-theme/v1.18.2/brown-orange/material.min.css">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+        body
+        {
+            font-family: 'Roboto', sans-serif !important;
+        }
+
+        .mdl-navigation__link
+        {
+            cursor: pointer;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div class="main-layout">
+    <div class="mdl-layout mdl-layout--fixed-header mdl-layout--fixed-drawer">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">Промышленность блокадного Ленинград</span>
+            </div>
+            <!--<div class="mdl-layout__tab-bar mdl-ripple-effect">-->
+                <!--<a href="#introduction" class="mdl-layout__tab is-active" id="tab___introduction">Сводка</a>-->
+                <!--<a href="#scroll-tab-2" class="mdl-layout__tab" id="tab___privilege">Привилегии</a>-->
+                <!--<a href="#scroll-tab-3" class="mdl-layout__tab" id="tab___problems">Проблемы</a>-->
+                <!--<a href="#scroll-tab-4" class="mdl-layout__tab" id="tab___interview">Воспоминания рабочих</a>-->
+                <!--<a href="#scroll-tab-5" class="mdl-layout__tab" id="tab___stories">Рассказы</a>-->
+                <!--<a href="#scroll-tab-6" class="mdl-layout__tab" id="tab___movie">Кадры из фильма</a>-->
+            <!--</div>-->
+        </header>
+
+        <div class="mdl-layout__drawer">
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" id="tab___introduction">Сводка</a>
+                <a class="mdl-navigation__link" id="tab___privilege">Привилегии</a>
+                <a class="mdl-navigation__link" id="tab___problems">Проблемы</a>
+                <a class="mdl-navigation__link" id="tab___interview">Воспоминания рабочих</a>
+                <a class="mdl-navigation__link" id="tab___stories">Рассказы</a>
+                <a class="mdl-navigation__link" id="tab___movie">Кадры из фильма</a>
+            </nav>
+        </div>
+
+        <main class="mdl-layout__content">
+            <div class="page-content" style="margin-left: 16px; margin-right: 16px;">
+            </div>
+        </main>
+    </div>
+</div>
+
+<script type="application/dart" src="main.dart"></script>
+<script src="packages/browser/dart.js"></script>
+
+</body>
+</html>
