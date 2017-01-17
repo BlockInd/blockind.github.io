@@ -31,10 +31,31 @@
             cursor: pointer;
         }
 
+        .main-layout
+        {
+            text-align: center;
+        }
+
+        .page-content
+        {
+            width: 700px;
+            display: inline-block;
+            text-align: left;
+        }
+
         img{
             max-width: 100%;
             max-height: 100%;
             min-width: 100%;
+        }
+
+        @media all and (max-width: 700px)
+        {
+            .page-content
+            {
+                margin-left: 16px;
+                margin-right: 16px;
+            }
         }
 
         @media all and (max-width: 450px)
@@ -78,7 +99,7 @@
         </div>
 
         <main class="mdl-layout__content">
-            <div class="page-content" style="margin-left: 16px; margin-right: 16px;">
+            <div class="page-content">
             </div>
         </main>
     </div>
